@@ -1,0 +1,50 @@
+.buttom{
+    background-color: aqua;
+    padding: 10px;
+}
+body {
+    background: lightgray;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: white;
+}
+.input{
+    margin: 10px;
+}
+.head{
+    margin-left: 5px;
+    position: relative;
+
+}
+.purple-header {
+    background: purple;
+}
+.text{
+    margin: 15px;
+    background-color: bisque;
+}
+.res{
+    margin-left: 15px;
+}
+.vidstup{
+    margin: 10px;
+}
+.r\.h{
+    margin-bottom: 50px;
+}
+.radius
+{
+    border-radius: 10px;
+}
+.submit {
+    display: flex;
+    background: blueviolet;
+    color: wheat;
+    padding: 10px;
+    margin:  10px 80%;
+}
