@@ -1,5 +1,5 @@
 <?php
-$connection = new mysqli('localhost', 'root', '', 'quiz');
+require_once('db.php');
 $query = 'SELECT * from results order by correct desc limit 10';
 $rows = $connection->query($query);
 ?>

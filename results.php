@@ -1,10 +1,12 @@
 <?php
-
+require_once('db.php');
 $username = empty($_POST['name']) ? '' : $_POST['name'];
 $total = 8;
 $correct = empty(array_count_values($_POST)[1]) ? 0 : array_count_values($_POST)[1];
 
 $incorrect = $total - $correct;
+$sql = "insert into results values (null, '$username', $total, $correct, $incorrect)";
+$connection->query($sql);
 
 ?>
 <!doctype html>
